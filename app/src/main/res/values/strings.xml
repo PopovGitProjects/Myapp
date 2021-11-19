@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">My app</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_up">Sign up</string>
+    <string name="user_icon">User icon</string>
+    <string name="user_info">User info</string>
+    <string name="add_avatar">Add avatar</string>
+    <string name="last_name">Last name</string>
+    <string name="first_name">First name</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="user_avatar">User avatar</string>
 </resources>

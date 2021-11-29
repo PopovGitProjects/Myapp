@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApp">
         <activity
+            android:name=".SignInUpActivity"
+            android:exported="true" />
+        <activity
             android:name=".Test2"
             android:exported="true" />
         <activity

@@ -13,12 +13,6 @@
             android:name=".SignInUpActivity"
             android:exported="true" />
         <activity
-            android:name=".Test2"
-            android:exported="true" />
-        <activity
-            android:name=".Test"
-            android:exported="true" />
-        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

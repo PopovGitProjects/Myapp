@@ -5,9 +5,11 @@
     <string name="user_icon">User icon</string>
     <string name="user_info">User info</string>
     <string name="add_avatar">Add avatar</string>
-    <string name="last_name">Last name</string>
+    <string name="second_name">Second name</string>
     <string name="first_name">First name</string>
     <string name="password">Password</string>
     <string name="login">Login</string>
     <string name="user_avatar">User avatar</string>
+    <string name="save_avatar">Save avatar</string>
+    <string name="ok">OK</string>
 </resources>

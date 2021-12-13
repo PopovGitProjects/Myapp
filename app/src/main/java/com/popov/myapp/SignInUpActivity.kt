@@ -1,6 +1,7 @@
 package com.popov.myapp
 
 import android.os.Bundle
+import android.util.Log
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.graphics.drawable.toDrawable
@@ -14,7 +15,9 @@ class SignInUpActivity : AppCompatActivity() {
         binding = ActivitySignInUpBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        if(intent.getIntExtra(Constants.SIGN_STATE, 0) == Constants.SIGN_IN_STATE){
+        Log.d("INTENT_DATA", intent.getStringExtra(Constants.SIGN_STATE)!!)
+
+        if(intent.getStringExtra(Constants.SIGN_STATE).equals(Constants.SIGN_IN_STATE)){
             binding.userAvatar.visibility = View.GONE
             binding.saveAvatar.visibility = View.GONE
             binding.userFirstName.visibility = View.GONE
@@ -25,8 +28,7 @@ class SignInUpActivity : AppCompatActivity() {
             binding.userAvatar.setImageDrawable(R.drawable.hacker.toDrawable())
         }
         binding.okButton.setOnClickListener {
-
+            finish()
         }
-
     }
 }

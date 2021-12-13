@@ -1,6 +1,5 @@
 package com.popov.myapp
 
-import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import androidx.activity.result.ActivityResult
@@ -44,17 +43,9 @@ class MainActivity : AppCompatActivity() {
             launcherSignIn.launch(setIntent(this, SignInUpActivity::class.java,
                 Constants.SIGN_IN_STATE))
         }
-        binding.signUpAndClose.setOnClickListener {
+        binding.signUp.setOnClickListener {
             launcherSignUp.launch(setIntent(this, SignInUpActivity::class.java,
                 Constants.SIGN_UP_STATE))
         }
-    }
-    private fun setIntent(
-        context: Context, activity: Class<SignInUpActivity>,
-         data: Int): Intent{
-        val key = Constants.SIGN_STATE
-        intent = Intent(context, activity)
-        intent.putExtra(key, data)
-        return intent
     }
 }

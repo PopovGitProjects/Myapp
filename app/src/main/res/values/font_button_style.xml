@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="font_button_style" parent="Widget.AppCompat.Button">
+        <item name="android:shadowColor">#E2000000</item>
+        <item name="android:shadowRadius">3</item>
+        <item name="fontStyle">italic</item>
+        <item name="textAllCaps">true</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+</resources>

@@ -11,5 +11,8 @@ object Constants {
     const val SECOND_NAME = "Second name"
     const val AVATAR = "Avatar"
 
+    const val RESULT_SIGN_IN_STATE = 100
+    const val RESULT_SIGN_UP_STATE = 101
+
 
 }

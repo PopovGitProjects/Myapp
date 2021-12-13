@@ -12,4 +12,6 @@
     <string name="user_avatar">User avatar</string>
     <string name="save_avatar">Save avatar</string>
     <string name="ok">OK</string>
+    <string name="tv_info">User is not found</string>
+    <string name="exit_button">Exit</string>
 </resources>
